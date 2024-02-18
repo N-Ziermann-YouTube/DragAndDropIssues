@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  border: solid white;
+  height: 30rem;
+  overflow-x: auto;
+}
+
+.Draggable {
+  border: solid grey;
+  width: 100px;
+  height: 100px;
+  cursor: grab;
+  margin: 2rem;
+}
+
+.Draggable:hover {
+  background-color: #333;
+}
